@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
   int h1,m1, h2,m2,h3,m3;
-  cout<<"What time was it?"<<endl;
+  cout<<"What time was it?";
   getTime(h1,m1);//function 1
   cout<<"What time is it now?";
   getTime(h2,m2);

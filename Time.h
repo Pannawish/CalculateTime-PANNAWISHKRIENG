@@ -3,6 +3,7 @@ using namespace std;
 #include <iomanip>
 
 void getTime(int &h,int &m){
+  cout<<"input (hr:mn) "<<endl;
   cin>>h>>m;
 }
 int subtract(int h1,int m1,int h2,int m2){
